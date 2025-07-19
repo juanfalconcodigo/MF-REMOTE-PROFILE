@@ -1,0 +1,11 @@
+<div class="profileContainer">
+    <h1 class="profileHeader">This is Remote Application PROFILE</h1>
+    <label class="profileLabel">Counter Value:&nbsp;<p class="counterValue">{{counter}}</p></label>
+    <div class="profileAction">
+        <button class="profileBtn" (click)="handleCounter()">Counter</button>
+    </div>
+    <div>
+        <input [formControl]="textTitle" type="text">
+        <button (click)="handleChangeShellText()">Change Tille in Shell</button>
+    </div>
+</div>
